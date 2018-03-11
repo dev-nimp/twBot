@@ -1,0 +1,11 @@
+I:\Project\C#\twBot\Demo\Demo\bin\Debug\Demo.exe.config
+I:\Project\C#\twBot\Demo\Demo\bin\Debug\Demo.exe
+I:\Project\C#\twBot\Demo\Demo\bin\Debug\Demo.pdb
+I:\Project\C#\twBot\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+I:\Project\C#\twBot\Demo\Demo\obj\Debug\Demo.Form1.resources
+I:\Project\C#\twBot\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+I:\Project\C#\twBot\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.cache
+I:\Project\C#\twBot\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+I:\Project\C#\twBot\Demo\Demo\obj\Debug\Demo.csproj.CopyComplete
+I:\Project\C#\twBot\Demo\Demo\obj\Debug\Demo.exe
+I:\Project\C#\twBot\Demo\Demo\obj\Debug\Demo.pdb
