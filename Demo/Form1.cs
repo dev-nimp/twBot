@@ -30,6 +30,15 @@ namespace Demo
             //IWebElement SearchInput = Browser.FindElement(By.Id("lst-ib"));
             //SearchInput.SendKeys("Тест" + OpenQA.Selenium.Keys.Enter);
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Browser.Quit();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
             IWebElement element;
             element = Browser.FindElement(By.LinkText("Войти"));
             element.Click();
@@ -37,12 +46,16 @@ namespace Demo
             element.SendKeys("*");
             element = Browser.FindElement(By.Name("pass"));
             element.SendKeys("*");
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Browser.Quit();
+            element = Browser.FindElement(By.XPath("/html/body/div/div[1]/div[6]/form/div/span/span/input"));
+            element.Click();
+            element = Browser.FindElement(By.LinkText("Арена"));
+            element.Click();
+            for (int i = 0; i < 1000; i++)
+            {       
+                element = Browser.FindElement(By.ClassName("label"));
+                element.Click();
+                System.Threading.Thread.Sleep(500);
+            }
         }
     }
 }
