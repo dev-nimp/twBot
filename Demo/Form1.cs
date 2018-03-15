@@ -43,19 +43,53 @@ namespace Demo
             element = Browser.FindElement(By.LinkText("Войти"));
             element.Click();
             element = Browser.FindElement(By.Name("login"));
-            element.SendKeys("*");
+            element.SendKeys(login.Text);
             element = Browser.FindElement(By.Name("pass"));
-            element.SendKeys("*");
+            element.SendKeys(passoword.Text);
             element = Browser.FindElement(By.XPath("/html/body/div/div[1]/div[6]/form/div/span/span/input"));
             element.Click();
-            element = Browser.FindElement(By.LinkText("Арена"));
+
+        }
+
+        private void login_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void passoword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Arana_Click(object sender, EventArgs e)
+        {
+            IWebElement element;
+            //element = Browser.FindElement(By.LinkText("Арена"));
+            element = Browser.FindElement(By.PartialLinkText("Арена"));
             element.Click();
-            for (int i = 0; i < 1000; i++)
-            {       
+            int count = Convert.ToInt32(Arena_count.Text);
+            int timeout = Convert.ToInt32(timeout_count.Text);
+            for (int i = 0; i < count; i++)
+            {
                 element = Browser.FindElement(By.ClassName("label"));
                 element.Click();
-                System.Threading.Thread.Sleep(500);
+                System.Threading.Thread.Sleep(timeout);
             }
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
