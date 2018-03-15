@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -68,6 +69,7 @@
             // 
             // button3
             // 
+            this.button3.Enabled = false;
             this.button3.Location = new System.Drawing.Point(38, 79);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(248, 23);
@@ -98,6 +100,7 @@
             // 
             // login
             // 
+            this.login.Enabled = false;
             this.login.Location = new System.Drawing.Point(98, 116);
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(188, 20);
@@ -106,6 +109,7 @@
             // 
             // passoword
             // 
+            this.passoword.Enabled = false;
             this.passoword.Location = new System.Drawing.Point(98, 142);
             this.passoword.Name = "passoword";
             this.passoword.Size = new System.Drawing.Size(188, 20);
@@ -114,6 +118,7 @@
             // 
             // Arana
             // 
+            this.Arana.Enabled = false;
             this.Arana.Location = new System.Drawing.Point(38, 182);
             this.Arana.Name = "Arana";
             this.Arana.Size = new System.Drawing.Size(75, 23);
@@ -124,6 +129,7 @@
             // 
             // Arena_count
             // 
+            this.Arena_count.Enabled = false;
             this.Arena_count.Location = new System.Drawing.Point(246, 185);
             this.Arena_count.Name = "Arena_count";
             this.Arena_count.Size = new System.Drawing.Size(40, 20);
@@ -142,6 +148,7 @@
             // 
             // Collisey
             // 
+            this.Collisey.Enabled = false;
             this.Collisey.Location = new System.Drawing.Point(38, 221);
             this.Collisey.Name = "Collisey";
             this.Collisey.Size = new System.Drawing.Size(75, 23);
@@ -162,6 +169,7 @@
             // 
             // Colliseu_count
             // 
+            this.Colliseu_count.Enabled = false;
             this.Colliseu_count.Location = new System.Drawing.Point(246, 221);
             this.Colliseu_count.Name = "Colliseu_count";
             this.Colliseu_count.Size = new System.Drawing.Size(40, 20);
@@ -191,16 +199,18 @@
             // 
             // timeout_count
             // 
+            this.timeout_count.Enabled = false;
             this.timeout_count.Location = new System.Drawing.Point(122, 264);
             this.timeout_count.Name = "timeout_count";
             this.timeout_count.Size = new System.Drawing.Size(100, 20);
             this.timeout_count.TabIndex = 14;
+            this.timeout_count.Text = "1000";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(328, 353);
+            this.ClientSize = new System.Drawing.Size(305, 364);
             this.Controls.Add(this.timeout_count);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Timeout_label);
@@ -217,6 +227,8 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "TiWar Bot";
             this.ResumeLayout(false);

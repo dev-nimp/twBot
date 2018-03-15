@@ -1,0 +1,12 @@
+I:\Project\C#\twBot\Demo\bin\Release\Demo.exe.config
+I:\Project\C#\twBot\Demo\bin\Release\Demo.exe
+I:\Project\C#\twBot\Demo\bin\Release\Demo.pdb
+I:\Project\C#\twBot\Demo\bin\Release\WebDriver.dll
+I:\Project\C#\twBot\Demo\obj\Release\Demo.csprojResolveAssemblyReference.cache
+I:\Project\C#\twBot\Demo\obj\Release\Demo.Form1.resources
+I:\Project\C#\twBot\Demo\obj\Release\Demo.Properties.Resources.resources
+I:\Project\C#\twBot\Demo\obj\Release\Demo.csproj.GenerateResource.cache
+I:\Project\C#\twBot\Demo\obj\Release\Demo.csproj.CoreCompileInputs.cache
+I:\Project\C#\twBot\Demo\obj\Release\Demo.csproj.CopyComplete
+I:\Project\C#\twBot\Demo\obj\Release\Demo.exe
+I:\Project\C#\twBot\Demo\obj\Release\Demo.pdb
